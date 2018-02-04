@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BFB3F81BDEF47F50ADFB23F /* Pods_SimpliWebsocketChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3D00A5C600B30383DCC61A /* Pods_SimpliWebsocketChat.framework */; };
+		FB0709A72026B18C0036DE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709A62026B18C0036DE8E /* AppDelegate.swift */; };
+		FB0709A92026B18C0036DE8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709A82026B18C0036DE8E /* ViewController.swift */; };
+		FB0709AE2026B18C0036DE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0709AD2026B18C0036DE8E /* Assets.xcassets */; };
+		FB0709B12026B18C0036DE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0709AF2026B18C0036DE8E /* LaunchScreen.storyboard */; };
+		FB0709BC2026B18D0036DE8E /* SimpliWebsocketChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709BB2026B18D0036DE8E /* SimpliWebsocketChatTests.swift */; };
+		FB0709C72026B18D0036DE8E /* SimpliWebsocketChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709C62026B18D0036DE8E /* SimpliWebsocketChatUITests.swift */; };
+		FB0709D52026B3520036DE8E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709D42026B3520036DE8E /* ChatViewController.swift */; };
+		FB0709D72026B3AF0036DE8E /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709D62026B3AF0036DE8E /* MockMessage.swift */; };
+		FB0709D92026B9620036DE8E /* JoinChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709D82026B9620036DE8E /* JoinChatViewController.swift */; };
+		FB0709DB2026B96F0036DE8E /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0709DA2026B96F0036DE8E /* Camera.swift */; };
+		FB0709DD2026B9780036DE8E /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0709DC2026B9780036DE8E /* avatar.png */; };
+		FB0709E12026C1FE0036DE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0709E02026C1FE0036DE8E /* Main.storyboard */; };
+		FB69D21620276875001142AB /* OpenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB69D21520276875001142AB /* OpenImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0709B82026B18D0036DE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB07099B2026B18C0036DE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0709A22026B18C0036DE8E;
+			remoteInfo = SimpliWebsocketChat;
+		};
+		FB0709C32026B18D0036DE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB07099B2026B18C0036DE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0709A22026B18C0036DE8E;
+			remoteInfo = SimpliWebsocketChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57F91551E01334A117398561 /* Pods-SimpliWebsocketChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpliWebsocketChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpliWebsocketChat/Pods-SimpliWebsocketChat.release.xcconfig"; sourceTree = "<group>"; };
+		6E6355DCDC0B9473DD14F60B /* Pods-SimpliWebsocketChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpliWebsocketChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpliWebsocketChat/Pods-SimpliWebsocketChat.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3D00A5C600B30383DCC61A /* Pods_SimpliWebsocketChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpliWebsocketChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0709A32026B18C0036DE8E /* SimpliWebsocketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpliWebsocketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0709A62026B18C0036DE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0709A82026B18C0036DE8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0709AD2026B18C0036DE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0709B02026B18C0036DE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0709B22026B18C0036DE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0709B72026B18D0036DE8E /* SimpliWebsocketChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpliWebsocketChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0709BB2026B18D0036DE8E /* SimpliWebsocketChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliWebsocketChatTests.swift; sourceTree = "<group>"; };
+		FB0709BD2026B18D0036DE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0709C22026B18D0036DE8E /* SimpliWebsocketChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpliWebsocketChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0709C62026B18D0036DE8E /* SimpliWebsocketChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliWebsocketChatUITests.swift; sourceTree = "<group>"; };
+		FB0709C82026B18D0036DE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0709D42026B3520036DE8E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FB0709D62026B3AF0036DE8E /* MockMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
+		FB0709D82026B9620036DE8E /* JoinChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinChatViewController.swift; sourceTree = "<group>"; };
+		FB0709DA2026B96F0036DE8E /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		FB0709DC2026B9780036DE8E /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		FB0709E02026C1FE0036DE8E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB69D21520276875001142AB /* OpenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0709A02026B18C0036DE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFB3F81BDEF47F50ADFB23F /* Pods_SimpliWebsocketChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0709B42026B18D0036DE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0709BF2026B18D0036DE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68339A4C9EB7C3C0BEC1A788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E6355DCDC0B9473DD14F60B /* Pods-SimpliWebsocketChat.debug.xcconfig */,
+				57F91551E01334A117398561 /* Pods-SimpliWebsocketChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DEB71AE84C1FAAC12E33145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD3D00A5C600B30383DCC61A /* Pods_SimpliWebsocketChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB07099A2026B18C0036DE8E = {
+			isa = PBXGroup;
+			children = (
+				FB0709A52026B18C0036DE8E /* SimpliWebsocketChat */,
+				FB0709BA2026B18D0036DE8E /* SimpliWebsocketChatTests */,
+				FB0709C52026B18D0036DE8E /* SimpliWebsocketChatUITests */,
+				FB0709A42026B18C0036DE8E /* Products */,
+				68339A4C9EB7C3C0BEC1A788 /* Pods */,
+				9DEB71AE84C1FAAC12E33145 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0709A42026B18C0036DE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0709A32026B18C0036DE8E /* SimpliWebsocketChat.app */,
+				FB0709B72026B18D0036DE8E /* SimpliWebsocketChatTests.xctest */,
+				FB0709C22026B18D0036DE8E /* SimpliWebsocketChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0709A52026B18C0036DE8E /* SimpliWebsocketChat */ = {
+			isa = PBXGroup;
+			children = (
+				FB0709A62026B18C0036DE8E /* AppDelegate.swift */,
+				FB0709A82026B18C0036DE8E /* ViewController.swift */,
+				FB0709DC2026B9780036DE8E /* avatar.png */,
+				FB0709D82026B9620036DE8E /* JoinChatViewController.swift */,
+				FB0709D62026B3AF0036DE8E /* MockMessage.swift */,
+				FB0709AD2026B18C0036DE8E /* Assets.xcassets */,
+				FB0709AF2026B18C0036DE8E /* LaunchScreen.storyboard */,
+				FB0709B22026B18C0036DE8E /* Info.plist */,
+				FB0709DA2026B96F0036DE8E /* Camera.swift */,
+				FB0709D42026B3520036DE8E /* ChatViewController.swift */,
+				FB0709E02026C1FE0036DE8E /* Main.storyboard */,
+				FB69D21520276875001142AB /* OpenImageViewController.swift */,
+			);
+			path = SimpliWebsocketChat;
+			sourceTree = "<group>";
+		};
+		FB0709BA2026B18D0036DE8E /* SimpliWebsocketChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0709BB2026B18D0036DE8E /* SimpliWebsocketChatTests.swift */,
+				FB0709BD2026B18D0036DE8E /* Info.plist */,
+			);
+			path = SimpliWebsocketChatTests;
+			sourceTree = "<group>";
+		};
+		FB0709C52026B18D0036DE8E /* SimpliWebsocketChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0709C62026B18D0036DE8E /* SimpliWebsocketChatUITests.swift */,
+				FB0709C82026B18D0036DE8E /* Info.plist */,
+			);
+			path = SimpliWebsocketChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0709A22026B18C0036DE8E /* SimpliWebsocketChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0709CB2026B18D0036DE8E /* Build configuration list for PBXNativeTarget "SimpliWebsocketChat" */;
+			buildPhases = (
+				06BBC6B355A281A423089762 /* [CP] Check Pods Manifest.lock */,
+				FB07099F2026B18C0036DE8E /* Sources */,
+				FB0709A02026B18C0036DE8E /* Frameworks */,
+				FB0709A12026B18C0036DE8E /* Resources */,
+				7FD9E8096810DF8FFC5840DD /* [CP] Embed Pods Frameworks */,
+				1AE53903352142FD47DC31EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpliWebsocketChat;
+			productName = SimpliWebsocketChat;
+			productReference = FB0709A32026B18C0036DE8E /* SimpliWebsocketChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0709B62026B18D0036DE8E /* SimpliWebsocketChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0709CE2026B18D0036DE8E /* Build configuration list for PBXNativeTarget "SimpliWebsocketChatTests" */;
+			buildPhases = (
+				FB0709B32026B18D0036DE8E /* Sources */,
+				FB0709B42026B18D0036DE8E /* Frameworks */,
+				FB0709B52026B18D0036DE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0709B92026B18D0036DE8E /* PBXTargetDependency */,
+			);
+			name = SimpliWebsocketChatTests;
+			productName = SimpliWebsocketChatTests;
+			productReference = FB0709B72026B18D0036DE8E /* SimpliWebsocketChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0709C12026B18D0036DE8E /* SimpliWebsocketChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0709D12026B18D0036DE8E /* Build configuration list for PBXNativeTarget "SimpliWebsocketChatUITests" */;
+			buildPhases = (
+				FB0709BE2026B18D0036DE8E /* Sources */,
+				FB0709BF2026B18D0036DE8E /* Frameworks */,
+				FB0709C02026B18D0036DE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0709C42026B18D0036DE8E /* PBXTargetDependency */,
+			);
+			name = SimpliWebsocketChatUITests;
+			productName = SimpliWebsocketChatUITests;
+			productReference = FB0709C22026B18D0036DE8E /* SimpliWebsocketChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB07099B2026B18C0036DE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Murat Zhakupov";
+				TargetAttributes = {
+					FB0709A22026B18C0036DE8E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB0709B62026B18D0036DE8E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB0709A22026B18C0036DE8E;
+					};
+					FB0709C12026B18D0036DE8E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB0709A22026B18C0036DE8E;
+					};
+				};
+			};
+			buildConfigurationList = FB07099E2026B18C0036DE8E /* Build configuration list for PBXProject "SimpliWebsocketChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB07099A2026B18C0036DE8E;
+			productRefGroup = FB0709A42026B18C0036DE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0709A22026B18C0036DE8E /* SimpliWebsocketChat */,
+				FB0709B62026B18D0036DE8E /* SimpliWebsocketChatTests */,
+				FB0709C12026B18D0036DE8E /* SimpliWebsocketChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0709A12026B18C0036DE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0709DD2026B9780036DE8E /* avatar.png in Resources */,
+				FB0709E12026C1FE0036DE8E /* Main.storyboard in Resources */,
+				FB0709B12026B18C0036DE8E /* LaunchScreen.storyboard in Resources */,
+				FB0709AE2026B18C0036DE8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0709B52026B18D0036DE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0709C02026B18D0036DE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06BBC6B355A281A423089762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpliWebsocketChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AE53903352142FD47DC31EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpliWebsocketChat/Pods-SimpliWebsocketChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FD9E8096810DF8FFC5840DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpliWebsocketChat/Pods-SimpliWebsocketChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpliWebsocketChat/Pods-SimpliWebsocketChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB07099F2026B18C0036DE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0709A92026B18C0036DE8E /* ViewController.swift in Sources */,
+				FB0709D52026B3520036DE8E /* ChatViewController.swift in Sources */,
+				FB0709DB2026B96F0036DE8E /* Camera.swift in Sources */,
+				FB0709A72026B18C0036DE8E /* AppDelegate.swift in Sources */,
+				FB69D21620276875001142AB /* OpenImageViewController.swift in Sources */,
+				FB0709D72026B3AF0036DE8E /* MockMessage.swift in Sources */,
+				FB0709D92026B9620036DE8E /* JoinChatViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0709B32026B18D0036DE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0709BC2026B18D0036DE8E /* SimpliWebsocketChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0709BE2026B18D0036DE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0709C72026B18D0036DE8E /* SimpliWebsocketChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0709B92026B18D0036DE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0709A22026B18C0036DE8E /* SimpliWebsocketChat */;
+			targetProxy = FB0709B82026B18D0036DE8E /* PBXContainerItemProxy */;
+		};
+		FB0709C42026B18D0036DE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0709A22026B18C0036DE8E /* SimpliWebsocketChat */;
+			targetProxy = FB0709C32026B18D0036DE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0709AF2026B18C0036DE8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0709B02026B18C0036DE8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0709C92026B18D0036DE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB0709CA2026B18D0036DE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0709CC2026B18D0036DE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6355DCDC0B9473DD14F60B /* Pods-SimpliWebsocketChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C4EK3F4JC;
+				INFOPLIST_FILE = SimpliWebsocketChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.SimpliWebsocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0709CD2026B18D0036DE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F91551E01334A117398561 /* Pods-SimpliWebsocketChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C4EK3F4JC;
+				INFOPLIST_FILE = SimpliWebsocketChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.SimpliWebsocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB0709CF2026B18D0036DE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C4EK3F4JC;
+				INFOPLIST_FILE = SimpliWebsocketChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.SimpliWebsocketChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliWebsocketChat.app/SimpliWebsocketChat";
+			};
+			name = Debug;
+		};
+		FB0709D02026B18D0036DE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C4EK3F4JC;
+				INFOPLIST_FILE = SimpliWebsocketChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.SimpliWebsocketChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliWebsocketChat.app/SimpliWebsocketChat";
+			};
+			name = Release;
+		};
+		FB0709D22026B18D0036DE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C4EK3F4JC;
+				INFOPLIST_FILE = SimpliWebsocketChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.SimpliWebsocketChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpliWebsocketChat;
+			};
+			name = Debug;
+		};
+		FB0709D32026B18D0036DE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C4EK3F4JC;
+				INFOPLIST_FILE = SimpliWebsocketChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.SimpliWebsocketChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpliWebsocketChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB07099E2026B18C0036DE8E /* Build configuration list for PBXProject "SimpliWebsocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0709C92026B18D0036DE8E /* Debug */,
+				FB0709CA2026B18D0036DE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0709CB2026B18D0036DE8E /* Build configuration list for PBXNativeTarget "SimpliWebsocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0709CC2026B18D0036DE8E /* Debug */,
+				FB0709CD2026B18D0036DE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0709CE2026B18D0036DE8E /* Build configuration list for PBXNativeTarget "SimpliWebsocketChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0709CF2026B18D0036DE8E /* Debug */,
+				FB0709D02026B18D0036DE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0709D12026B18D0036DE8E /* Build configuration list for PBXNativeTarget "SimpliWebsocketChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0709D22026B18D0036DE8E /* Debug */,
+				FB0709D32026B18D0036DE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB07099B2026B18C0036DE8E /* Project object */;
+}
