@@ -25,6 +25,7 @@ class OpenImageViewController: UIViewController {
         imageView.frame.origin = CGPoint(x: 0, y: 0)
         imageView.contentMode = .scaleAspectFit
         view.addSubview(imageView)
+        navigationItem.title = "ImageView"
     }
 
     override func didReceiveMemoryWarning() {
